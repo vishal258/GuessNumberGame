@@ -1,0 +1,106 @@
+@media screen and (min-width: 1040px) {
+    h3 {
+        font-size: 1.17em;
+    }
+    button{
+        font-size: 13.3333px;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    button {
+       font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    button {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h3 {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width:320px){
+    #container {
+        width: 100% !important;
+        border-radius: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    body {
+        margin:0 !important;
+    }
+    .panel {
+        margin-top: 0px !important;
+
+    }
+    .panel3 {
+        margin-bottom: 0px !important;
+    }
+}
+
+body {
+    font-size: 1.2em;
+    background:url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+#container {
+    background-color: rgba(96, 32, 64, 0.96);
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px  ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.panel, .panel2, .panel3 {
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    background-color: rgba(114, 38, 76, 0.96);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+}
+
+input::placeholder {
+    text-align:center;
+}
+
+.line   {
+    border: 1px solid #727272b8;
+    margin-bottom: 30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activeButton {
+    background-color: green;
+}

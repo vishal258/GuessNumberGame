@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess Number Game</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div class="panel">
+            <h2>I have a random number <br>between 1 & 100</h2>
+            <h3>Have a GUESS?</h3>
+            <div class="line"></div>
+
+            <p>Select Difficulty Setting:</p>
+            <button id="easy" class="easy">Easy Mode: Guess in 10 attempts (default)</button>
+            <button id="hard" class="hard">Hard Mode: Guess in 5 attempts </button>
+            <button id="newGame">New Game</button>
+        </div>
+
+        <div class="panel2">
+            <h3 id="textOutput">Enter your guess below &amp; press enter</h3>
+            <input type="number" id="inputBox" placeholder="Enter Your Guess" autocomplete="off">
+            <p>Number of previous attempts: <span id="attempts"></span></p>
+        </div>
+
+        <div class="panel3">
+            <p>Your previous guesses:</p>
+            <p id="guessLog"></p>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
